@@ -14,3 +14,17 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/cad_pol', function () {
+    return view('policial_cadastrar');
+});
+
+Auth::routes();
+Route::resource('policiais', 'PolicialController');
+Route::resource('suspeitos', 'SuspeitoController');
+
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

@@ -1,0 +1,23 @@
+#imglogo{
+    position: relative;
+    max-width: 100%;
+}
+
+.img2{
+    position: relative;
+    width: 625px;
+    height: 405px;
+    left: 605px;
+    top: 5px;
+}
+
+.navbar.navbar-expand-lg.navbar-light ul li a {
+    color: red; 
+}
+
+.navbar-light{
+    background: #2147CC;   
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+}
