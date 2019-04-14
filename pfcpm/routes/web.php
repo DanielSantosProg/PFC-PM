@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+/*Rota da tela de login */
+Route::get('login_ini', function(){
+    return view('tela_login');
+});
+
 Route::get('/cad_pol', function () {
     return view('policial_cadastrar');
 });
